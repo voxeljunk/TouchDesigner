@@ -1,6 +1,6 @@
 # TouchDesigner
 
-this repository will contain various useful TouchDesigner devices and utilities ranging from the simple to the compolex.
+this repository will contain various useful TouchDesigner devices and utilities ranging from the simple to the complex.
 
 ----------
 
