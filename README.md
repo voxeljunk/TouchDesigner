@@ -4,7 +4,7 @@ this repository will contain various useful TouchDesigner devices and utilities 
 
 ----------
 
-**Unique Random Sequence Assistant ** (**URSA** for short) offers a variety of ways to generate and navigate non-repeating number sequences. features include:
+**Unique Random Sequence Assistant** (**URSA** for short) offers a variety of ways to generate and navigate non-repeating number sequences. features include:
 
 - dynamically resizable sequences up to 128 steps in length (perfect for MIDI control!)
 - increment, decrement and non-destructive reset buttons for navigating sequences
