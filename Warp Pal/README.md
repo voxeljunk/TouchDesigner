@@ -11,15 +11,13 @@
            / /   | |_| |     .'     '.                         .'     '.            / /   | |_'---' 
            \ \._,\ '/|_|   '-----------'                     '-----------'          \ \._,\ '/      
             `--'  `"                                                                 `--'  `"       
-```
 
-by voxeljunk
-https://linktr.ee/voxeljunk
+```
+### by [voxeljunk](https://linktr.ee/voxeljunk)
 ---------------------------------------------------------
-inspired by Warp mode of the LZX Industries Memory Palace
-https://lzxindustries.net/products/memory-palace
----------------------------------------------------------
-CHANGELOG
+magic feedback keyer inspired by Warp mode of the [LZX Industries](https://lzxindustries.net/) [Memory Palace](https://lzxindustries.net/products/memory-palace).
+
+#### **CHANGELOG**
 
 v0.6 - 2/4/23
 - reorganized I/O and control structure for improved chainability
