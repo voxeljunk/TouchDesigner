@@ -11,7 +11,6 @@ __/\\\\____________/\\\\__/\\\\\\\\\\\__/\\\\____________/\\\\__/\\\\\\\\\\\\\\\
 ```
 ## MIDI Input Management Expert
 #### by [voxeljunk](https://linktr.ee/voxeljunk)
-
 a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 - MIDI Learn mode detects MIDI channel and sets CC and Note range start to last received CC and note values
 - external CC and Note inputs for bypassing internal MIDI mapper
@@ -19,6 +18,8 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 - Autobind mode for instant binding to selected parent paremeters
 - auto-scales MIDI CCs to corresponding parent parameter's min/max ranges using internal Animation COMP
 - MIDI note to toggle converter with string field for fast, intuitive control conversion
+- daisy chain I/O for easy control over multiple instances of a single parent effect or processor
+- merged output with MIDI-controlled + all other parent params and lag CHOP for subtle control smoothing
 
 ### Version History
 #### v0.5 // 2/10/23
