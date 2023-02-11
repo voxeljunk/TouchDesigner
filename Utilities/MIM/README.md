@@ -1,3 +1,0 @@
-```
-MIDI Input Manager
-```
