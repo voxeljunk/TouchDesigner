@@ -12,12 +12,12 @@ __/\\\\____________/\\\\__/\\\\\\\\\\\__/\\\\____________/\\\\__/\\\\\\\\\\\\\\\
 ## MIDI Input Management Expert
 #### by [voxeljunk](https://linktr.ee/voxeljunk)
 
-a one-stop shop for MIDI CC/note detection, selection, scaling and binding.  
-- select your device by device ID, then turn on MIDI Learn mode to detect MIDI channel and last updated CC and note values.  
-- drag and drop into any COMP and click Parameter Setup to scan for all custom numeric, button, toggle and momentary parameters.  
-- enable Autobind and select the parameters you'd like to map to from the CC Parameter Select and Note Parameter Select StrMenus for near-instant binding.  
-- auto-scales MIDI CCs to each parameter's min/max ranges for quick and easy setup
-- MIDI note to toggle converter
+a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
+- MIDI Learn mode detects MIDI channel and sets CC and Note range start to last received CC and note values
+- one-click Parameter Setup to scan for all custom numeric, button, toggle and momentary parameters in parent COMP
+- Autobind mode for instant binding to selected parent paremeters
+- auto-scales MIDI CCs to corresponding parent parameter's min/max ranges
+- MIDI note to toggle converter with string field
 
 ### Version History
 #### v0.5 // 2/10/23
