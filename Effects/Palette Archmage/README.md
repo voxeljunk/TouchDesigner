@@ -11,3 +11,12 @@
  ?8P                                                                                                                     `?8888P        
 
 ```
+## Palette Archmage
+#### by [voxeljunk](https://linktr.ee/voxeljunk)
+a robust, multi-channel real-time lookup table colorizer.
+- two independent channels with mix channel for finding sweet spots between palettes
+- etc. etc. etc. add more info soon
+
+### Version History
+#### v0.5 // 2/10/23
+initial release
