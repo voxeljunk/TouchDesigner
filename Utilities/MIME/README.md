@@ -24,3 +24,6 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 ### Version History
 #### v0.5 // 2/10/23
 initial release
+
+---
+<sub>title art made with [TAAG](https://patorjk.com/software/taag/) using the [Slant Relief](https://patorjk.com/software/taag/#p=author&f=Slant%20Relief&t=MIME) font</sub>
