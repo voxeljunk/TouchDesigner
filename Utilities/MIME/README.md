@@ -22,7 +22,11 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 - merged output with MIDI-controlled + all other parent params and lag CHOP for subtle control smoothing
 
 ### Version History
-#### v0.5 // 2/10/23
+
+#### v0.2 // 2/11/23
+experimental build with smart parameter pickup. haven't tested this much yet, hope it doesn't break anything too bad 😬 added a MIDI Pickup toggle just in case.
+
+#### v0.1 // 2/10/23
 initial release
 
 ---
