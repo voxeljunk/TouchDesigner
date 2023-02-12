@@ -21,6 +21,16 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 - daisy chain I/O for easy control over multiple instances of a single parent effect or processor
 - merged output with MIDI-controlled + all other parent params and lag CHOP for subtle control smoothing
 
+### Usage
+1. add MIME to any COMP you'd like to control with MIDI.
+2. select your MIDI device with the Device ID slider.
+3. activate MIDI Learn mode and send the first CC and/or Note in your desired control range. don't forget to turn off MIDI Learn when you're done!
+4. press Parameter Setup button to poll the COMP for a list of its custom parameters and their designated min/max control ranges.
+5. use the MIDI CC and Note Parameter Select fields to choose which parameters to map your MIDI controller to.
+
+that's it! now you're ready to go!
+
+---
 ### Version History
 
 #### v0.2 // 2/11/23
