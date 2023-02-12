@@ -23,9 +23,9 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 
 ### Usage
 1. place MIME inside any COMP you'd like to control with MIDI.
-2. select your MIDI device with the Device ID slider.
-3. activate MIDI Learn mode and send the first CC and/or Note in your desired control range. don't forget to turn off MIDI Learn when you're done!
-4. press Parameter Setup button to poll the COMP for a list of its custom parameters and their designated min/max control ranges.
+2. press  Setup button to detect MIDI devices and generate a list of the Parent COMP's custom parameters and their designated min/max control ranges.
+3. select your MIDI device with the Device ID slider.
+4. activate MIDI Learn mode and send the first CC and/or Note in your desired control range. don't forget to turn off MIDI Learn when you're done!
 5. use the MIDI CC and Note Parameter Select fields to choose which parameters to map your MIDI controller to.
 
 that's it! now you're ready to go!
@@ -35,7 +35,8 @@ that's it! now you're ready to go!
 
 #### v0.2 // 2/11/23
 - experimental build with smart parameter pickup. haven't tested this much yet, hope it doesn't break anything too bad 😬 added a MIDI Pickup toggle just in case.
-- also added a bunch of Parameter Help data. don't think i got everything yet but it's a start.
+- replaced Device ID slider with menu
+- added a bunch of Parameter Help data
 
 #### v0.1 // 2/10/23
 initial release
