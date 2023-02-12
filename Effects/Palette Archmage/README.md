@@ -18,7 +18,7 @@ a robust, multi-channel real-time lookup table colorizer.
 - etc. etc. etc. add more info soon
 
 ### Version History
-#### v0.9 // 2/10/23
+#### v0.9 // 2/12/23
 initial release
 
 ---
