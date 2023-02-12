@@ -24,7 +24,8 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 ### Version History
 
 #### v0.2 // 2/11/23
-experimental build with smart parameter pickup. haven't tested this much yet, hope it doesn't break anything too bad 😬 added a MIDI Pickup toggle just in case.
+- experimental build with smart parameter pickup. haven't tested this much yet, hope it doesn't break anything too bad 😬 added a MIDI Pickup toggle just in case.
+- also added a bunch of Parameter Help data. don't think i got everything yet but it's a start.
 
 #### v0.1 // 2/10/23
 initial release
