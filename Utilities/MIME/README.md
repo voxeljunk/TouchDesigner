@@ -33,6 +33,9 @@ that's it! now you're ready to go!
 ---
 ### Version History
 
+#### v0.3 // 2/12/23
+- fixed a bug in parameter pickup script
+
 #### v0.2 // 2/11/23
 - experimental build with smart parameter pickup. haven't tested this much yet, hope it doesn't break anything too bad 😬 added a MIDI Pickup toggle just in case.
 - replaced Device ID slider with menu
