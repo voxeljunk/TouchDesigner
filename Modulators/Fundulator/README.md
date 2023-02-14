@@ -25,4 +25,4 @@ an easy-to-use complex modulator with a really dumb name.
 initial release
 
 ---
-<sub>title art made with [TAAG](https://patorjk.com/software/taag/) using the [Sweet](https://patorjk.com/software/taag/#p=author&f=Sweet&t=Nearness) font</sub>
+<sub>title art made with [TAAG](https://patorjk.com/software/taag/) using the [Crazy](https://patorjk.com/software/taag/#p=author&f=Crazy&t=Fundulator) font</sub>
