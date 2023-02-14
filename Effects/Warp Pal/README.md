@@ -21,4 +21,4 @@ magic feedback keyer inspired by Warp mode of the [LZX Industries](https://lzxin
 initial release
 
 ---
-<sub>title art made with [TAAG](https://patorjk.com/software/taag/) using the [Sweet](https://patorjk.com/software/taag/#p=author&f=Sweet&t=Nearness) font</sub>
+<sub>title art made with [TAAG](https://patorjk.com/software/taag/) using the [Crazy](https://patorjk.com/software/taag/#p=display&f=Crazy&t=Warp%20Pal) font</sub>
