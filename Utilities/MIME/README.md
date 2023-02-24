@@ -12,7 +12,7 @@ __/\\\\____________/\\\\__/\\\\\\\\\\\__/\\\\____________/\\\\__/\\\\\\\\\\\\\\\
 ## MIDI Input Management Expert
 #### by [voxeljunk](https://linktr.ee/voxeljunk)
 a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
-- MIDI Learn mode detects MIDI channel and sets CC and Note range start to last received CC and note values
+- MIDI Learn mode detects MIDI channel and sets CC and Note range start to most recently received CC and note values
 - external CC and Note inputs for bypassing internal MIDI mapper
 - one-click Parameter Setup to scan for all custom numeric, button, toggle and momentary parameters in parent COMP
 - Autobind mode for instant binding to selected parent paremeters
@@ -23,9 +23,9 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 
 ### Usage
 1. place MIME inside any COMP you'd like to control with MIDI.
-2. press  Setup button to detect MIDI devices and generate a list of the Parent COMP's custom parameters and their designated min/max control ranges.
+2. press Setup button to detect MIDI devices and generate a list of the Parent COMP's custom parameters and their designated min/max control ranges.
 3. select your MIDI device with the Device ID slider.
-4. activate MIDI Learn mode and send the first CC and/or Note in your desired control range. don't forget to turn off MIDI Learn when you're done!
+4. activate MIDI Learn mode and send the first CC and Note in your desired control range.
 5. use the MIDI CC and Note Parameter Select fields to choose which parameters to map your MIDI controller to.
 
 that's it! now you're ready to go!
@@ -33,8 +33,13 @@ that's it! now you're ready to go!
 ---
 ### Version History
 
+#### v0.4 // 2/24/23
+- added MIDI Learn Modes - default "Auto-Off" mode automatically deactivates MIDI Learn after a user-definable interval (default 10s)
+- added MIDI mute and MIDI Value Reset parameters
+- improved MIDI device scanning
+
 #### v0.3 // 2/12/23
-- fixed a bug in parameter pickup script
+- fixed a bug in parameter pickup script. please note that parameter pickup does not play nice with expressions meaning if you have pickup active you will likely not be able to quickly type expressions into parameter fields on the parent. as such pickup is off by default but is still available as it may be handy in certain use cases.
 
 #### v0.2 // 2/11/23
 - experimental build with smart parameter pickup. haven't tested this much yet, hope it doesn't break anything too bad 😬 added a MIDI Pickup toggle just in case.
