@@ -21,7 +21,7 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 - daisy chain I/O for easy control over multiple instances of a single parent effect or processor
 - merged output with MIDI-controlled + all other parent params and lag CHOP for subtle control smoothing
 
-### Usage
+### Basic Usage
 1. place MIME inside any COMP you'd like to control with MIDI.
 2. press Setup button to detect MIDI devices and generate a list of the Parent COMP's custom parameters and their designated min/max control ranges.
 3. select your MIDI device with the Device ID slider.
@@ -29,6 +29,14 @@ a one-stop shop for MIDI CC/note detection, selection, scaling and binding.
 5. use the MIDI CC and Note Parameter Select fields to choose which parameters to map your MIDI controller to.
 
 that's it! now you're ready to go!
+
+### Advanced Usage - Control Smoothing and Daisy Chaining
+the above method maps directly to parent parameters. if those parameters are already mapped as you like then that's all you need to do. however, MIME features three outputs past the mapping script which enable daisy-chaining and global smoothing. these outputs are as follows:
+- **params** - all parameters with smoothing (lag) applied. the lag amount is controlled by the Control Smoothing parameter. great for mapping numeric parameters.
+- **params_nosmoothing** - all parameters without lag applied. best used to map to menus and other controls which don't really benefit from smoothing.
+- **daisy_chain_out** - same as **params_nosmoothing** but tapped before **daisy_chain_input**.
+
+to make the most of these features, connect null CHOPs to MIME's **params** and **params_nosmoothing** outputs and use these when making any expression mappings inside your COMP. connect an in CHOP to the **daisy_chain_in** and an out CHOP to the **daisy_chain_out** for quick connection of multiple identical devices in series. please note that the parameter controls in daisy-chained devices will not track signals from their daisy chain inputs. only MIME's outputs reflect these changes.
 
 ---
 ### Version History
