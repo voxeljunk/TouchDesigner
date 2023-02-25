@@ -45,6 +45,7 @@ to make the most of these features, connect null CHOPs to MIME's **params** and 
 - added MIDI Learn Modes - default "Auto-Off" mode automatically deactivates MIDI Learn after a user-definable interval (default 10s)
 - added MIDI mute and MIDI Value Reset parameters
 - improved MIDI device scanning
+- added external control merge input - useful in certain cases where alternative control schemes are desired in the absence of a MIDI controller
 
 #### v0.3 // 2/12/23
 - fixed a bug in parameter pickup script. please note that parameter pickup does not play nice with expressions meaning if you have pickup active you will likely not be able to quickly type expressions into parameter fields on the parent. as such pickup is off by default but is still available as it may be handy in certain use cases.
