@@ -36,7 +36,7 @@ the above method maps directly to parent parameters. if those parameters are alr
 - **params_nosmoothing** - all parameters without lag applied. best used to map to menus and other controls which don't really benefit from smoothing.
 - **daisy_chain_out** - same as **params_nosmoothing** but tapped before **daisy_chain_input**.
 
-to make the most of these features, connect null CHOPs to MIME's **params** and **params_nosmoothing** outputs and use these when making any expression mappings inside your COMP. connect an in CHOP to the **daisy_chain_in** and an out CHOP to the **daisy_chain_out** for quick connection of multiple identical devices in series. please note that the parameter controls in daisy-chained devices will not track signals from their daisy chain inputs. only MIME's outputs reflect these changes.
+to make the most of these features, connect null CHOPs to MIME's **params** and **params_nosmoothing** outputs and use these when making any expression mappings inside your COMP. connect an in CHOP to the **daisy_chain_in** and an out CHOP to the **daisy_chain_out** for quick connection of multiple identical COMPs in series. please note that the parameter controls in daisy-chained devices will not track signals from their daisy chain inputs. only MIME's outputs reflect these changes.
 
 ---
 ### Version History
